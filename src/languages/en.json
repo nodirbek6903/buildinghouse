@@ -59,5 +59,7 @@
     "footer-card2-text3":"About Us",
     "footer-card2-text4":"News",
     "footer-card2-text5":"Our Projects",
-    "footer-card3-text":"Communication"
+    "footer-card3-text":"Communication",
+
+    "toastr-message":"Your information has been successfully sent to the Telegram channel!!!"
 }

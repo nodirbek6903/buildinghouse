@@ -41,7 +41,7 @@ const Contact = () => {
     e.preventDefault();
     sendTelegram();
     toast.success(
-      `${firstname} malumotlaringiz telegram kanalga muvaffaqqiyatli tarzda yuborildi!!!`);
+      `${firstname} ${t("toastr-message")}`);
     setFirstname("");
     setPhoneNumber("");
     setMessage("");

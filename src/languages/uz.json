@@ -59,5 +59,7 @@
     "footer-card2-text3":"Biz haqimizda",
     "footer-card2-text4":"Yangiliklar",
     "footer-card2-text5":"Bizning loyihalarimiz",
-    "footer-card3-text":"Aloqa"
+    "footer-card3-text":"Aloqa",
+
+    "toastr-message":"malumotlaringiz telegram kanalga muvaffaqqiyatli tarzda yuborildi!!!"
 }

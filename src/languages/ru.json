@@ -59,5 +59,7 @@
     "footer-card2-text3":"Насчет нас",
     "footer-card2-text4":"Новости",
     "footer-card2-text5":"Наши проекты",
-    "footer-card3-text":"Коммуникация"
+    "footer-card3-text":"Коммуникация",
+
+    "toastr-message":"Ваша информация успешно отправлена ​​в Telegram-канал!!!"
 }

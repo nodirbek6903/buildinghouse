@@ -32,6 +32,9 @@
 .nav-lists.active a{
   color: #000;
 }
+.nav-lists .nav-list:hover{
+  text-decoration: underline;
+}
 .nav-lists .nav-logo {
   width: 150px;
 }

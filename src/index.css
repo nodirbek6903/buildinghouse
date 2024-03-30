@@ -6,8 +6,7 @@
 .container{
     margin: 0 auto;
     max-width: 1560px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
+}
+*{
+    scroll-behavior: smooth;
 }

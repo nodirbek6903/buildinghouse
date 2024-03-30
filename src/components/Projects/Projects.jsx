@@ -64,7 +64,7 @@ const Projects = () => {
             <img src={Invento} alt="" />
           </div>
         </div>
-        <div className="card">
+        <div className="card" id="about">
           <div className="card-texts">
             <span className="card-title">Presidential School</span>
             <span className="card-descr">

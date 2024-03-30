@@ -74,7 +74,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="company">
+      <div className="company" id="enterprises">
         <div className="company-statistics">
           <div className="company-title">
             <span>Our company</span>

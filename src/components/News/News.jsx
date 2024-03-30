@@ -7,7 +7,7 @@ import News4 from "../../images/service-img2.jpg";
 
 const News = () => {
   return (
-    <div className="news-container">
+    <div className="news-container" id="news">
       <div className="section-title">
         <span>All our news</span>
       </div>

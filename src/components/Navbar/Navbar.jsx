@@ -19,7 +19,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if(window.scrollY > 20){
+      if(window.scrollY > 0){
         setScroll(true)
         setLogoSrc(NavLogo1)
       }

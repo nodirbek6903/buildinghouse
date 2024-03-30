@@ -30,20 +30,22 @@
     align-items: flex-start;
     gap: 2rem;
 }
-.footer-card:nth-child(1) .footer-icons a .footer-icon{
-    padding: 15px;
+.footer-card:nth-child(1) .footer-icons .footer-icon{
+    padding: 16px;
     background-color: #000;
     border-radius: 50%;
-    color: #fff;
-    font-size: 20px;
 }
-a{
+.footer-card:nth-child(1) .footer-icons .footer-icon .icon{
+    font-size: 18px;
+    color: #fff;
+}
+.footer-link{
     text-decoration: none;
     color: #555;
     font-size: 25px;
     transition: 1s;
 }
-a:hover{
+.footer-link:hover{
     text-decoration: underline;
 }
 span{

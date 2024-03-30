@@ -9,12 +9,14 @@ import Img6 from "../../images/partners6.jpg"
 import Img7 from "../../images/partners7.jpg"
 import Img8 from "../../images/partners8.jpg"
 import TexImg from "../../images/services-img.jpg"
+import { useTranslation } from 'react-i18next'
 
 const Partners = () => {
+    const {t} = useTranslation()
   return (
     <div className='partners-container'>
         <div className="section-title">
-            <span>Exchange ideas with partners</span>
+            <span>{t("partners-title")}</span>
         </div>
         <div className="partners-img-container">
             <img src={Img1} alt="" />
@@ -32,11 +34,10 @@ const Partners = () => {
             </div>
             <div className="tex-content">
                 <h1 className="tex-title">Ataev Bahodir <br />Build</h1>
-                <p className="tex-descr">We don't just create projects,we create new opportunities.
-                By building state-scale facilities,we are building the future.
-                We care about the environment:the company takes full responsibility for environmental
-                aspects associated with the construction and operation of buildings and infrastructure</p>
-                <a href="#" className='tex-btn'>Learn More</a>
+                <p className="tex-descr">
+                    {t("partners-card-descr")}
+                </p>
+                <a href="#" className='tex-btn'>{t("partners-card-btn")}</a>
             </div>
         </div>
     </div>

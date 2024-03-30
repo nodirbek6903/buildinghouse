@@ -6,8 +6,11 @@ import SerImg3 from "../../images/service-img3.png";
 import SerImg4 from "../../images/service-img4.png";
 import CompanyImg from "../../images/company-image2.jpg";
 import anime from "animejs";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+const {t} = useTranslation()
+
   useEffect(() => {
     const handleScroll = () => {
       if(window.scrollY>100){
@@ -49,26 +52,26 @@ const Services = () => {
   return (
     <div className="services-container">
       <div className="section-title">
-        <span>Our services</span>
+        <span>{t("service-title")}</span>
       </div>
       <div className="services-cards">
         <div className="div">
           <div className="card card1">
-            <h3>You can get free information from our company's specialists</h3>
+            <h3>{t("card-text-1")}</h3>
             <img src={SerImg1} className="card-image" alt="Image1" />
           </div>
           <div className="card card2">
-            <h3>Documents clearance</h3>
+            <h3>{t("card-text-2")}</h3>
             <img src={SerImg2} className="card-image" alt="Image1" />
           </div>
         </div>
         <div className="div">
           <div className="card card3">
-            <h3>Repair correction service</h3>
+            <h3>{t("card-text-3")}</h3>
             <img src={SerImg3} className="card-image" alt="Image1" />
           </div>
           <div className="card card4">
-            <h3>Team of professionals</h3>
+            <h3>{t("card-text-4")}</h3>
             <img src={SerImg4} className="card-image" alt="Image1" />
           </div>
         </div>
@@ -77,32 +80,32 @@ const Services = () => {
       <div className="company" id="enterprises">
         <div className="company-statistics">
           <div className="company-title">
-            <span>Our company</span>
+            <span>{t("company-title")}</span>
           </div>
           <div className="company-cards">
             <div className="employe">
               <h1>
                 <span>0</span> +
               </h1>
-              <span>Number of employee</span>
+              <span>{t("company-card-1")}</span>
             </div>
             <div className="objects">
               <h1>
                 <span>0</span> +
               </h1>
-              <span>Objects</span>
+              <span>{t("company-card-2")}</span>
             </div>
             <div className="equipment">
               <h1>
                 <span>0</span> +
               </h1>
-              <span>Special equipment</span>
+              <span>{t("company-card-3")}</span>
             </div>
             <div className="years">
               <h1>
                 <span>0</span> +
               </h1>
-              <span>14 years on the market</span>
+              <span>{t("company-card-4")}</span>
             </div>
           </div>
         </div>

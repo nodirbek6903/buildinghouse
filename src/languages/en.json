@@ -1,0 +1,63 @@
+{
+    "nav-link1":"Information",
+    "nav-link2":"About Us",
+    "nav-link3":"Enterprises",
+    "nav-link4":"Our advantages",
+    "nav-link5":"News",
+    "nav-link6":"Communication",
+
+    "main-text":"Excellence in everything",
+    "main-btn1":"Our Projects",
+    "main-btn2":"Connection",
+
+    "service-title":"Our services",
+    "card-text-1":"You can get free information from our company's specialists",
+    "card-text-2":"Documents clearance",
+    "card-text-3":"Repair correction service",
+    "card-text-4":"Team of professionals",
+
+    "company-title":"Our company",
+    "company-card-1":"Number of employees",
+    "company-card-2":"Objects",
+    "company-card-3":"Special equipment",
+    "company-card-4":"14 years on the market",
+
+    "yourhome-title":"Your dream home",
+
+    "project-title":"Our Projects",
+    "project-card1-descr":"This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions.",
+    "project-card2-descr":"Multifunctional residential complex created to provide comfort to the residents of Uzbekistan.",
+    "project-card3-descr":"A grandiose residential area in the heart of the capital.",
+    "project-card4-descr":"Fonon is a jewelry production plant in Uzbekistan built on the basis of Italian ones in 2020. Fonon is the only large enterprise in Central Asia producing jewelry from precious metals in European and Oriental styles,",
+    "project-card5-descr":"International kindergarten and school located in the international business center of Tashkent City.",
+    "project-card6-descr":"This is an educational institution that provides knowledge at an international level",
+
+    "news-title":"All our news",
+    "news-card-btn":"News",
+    "news-card1-title":"Who is a construction project manager?",
+    "news-card1-descr":"The Discover Invest company has several construction project managers. This is a specialist responsible for the successful implementation of the construction site entrusted to him. He manages the entire process, from the planning stage and approval of project documentation to the commissioning of the building, and sometimes also performs post-project support. Latest",
+    "news-card2-title":"Congratulations to everyone on the upcoming 2024!",
+    "news-card2-descr":"The sophisticated interior design of the halls will create an atmosphere of comfort even before entering the apartment, and a convenient navigation system will help you easily get to the floor you need or exit to the territory",
+    "news-card3-title":"Location",
+    "news-card3-descr":"The transport infrastructure allows you to easily move to anywhere in the city: you just have to choose the desired and desired direction.",
+    "news-card4-title":"We continue to introduce you to the multifunctional objects of Discover Invest.",
+    "news-card4-descr":"We continue to introduce you to the multifunctional objects of Discover Invest. One of them is the Yangi Choshtepa residential complex built in the Yangihayat district of Tashkent. The total construction area is 12 hectares. To date, 29 houses have been built.",
+
+    "partners-title":"Exchange ideas with partners",
+    "partners-card-descr":"We don't just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment: the company takes full responsibility for environmental aspects associated with the construction and operation of buildings and infrastructure",
+    "partners-card-btn":"Learn More",
+
+    "contact-form-title":"Do you have any questions, suggestions or requests?",
+    "form-input1-placeholder":"Your name",
+    "form-input2-placeholder":"Your phone number",
+    "form-input3-placeholder":"Your message...",
+    "form-submit":"Sending",
+
+    "footer-card1-text":"Subscribe to our social networks",
+    "footer-card2-text1":"Our company",
+    "footer-card2-text2":"Enterprises",
+    "footer-card2-text3":"About Us",
+    "footer-card2-text4":"News",
+    "footer-card2-text5":"Our Projects",
+    "footer-card3-text":"Communication"
+}

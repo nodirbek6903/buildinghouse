@@ -1,86 +1,70 @@
 import React, { useEffect, useState } from "react";
 import NavLogo1 from "../../images/footer-logo.png";
-import NavLogo2 from "../../images/ataevBahodir.png"
+import NavLogo2 from "../../images/ataevBahodir.png";
 import "./Navbar.css";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
-  const [checked, setChecked] = useState(false);
-  const [selectedLanguages, setSelectedLanguages] = useState("EN");
-  const [scroll,setScroll] = useState(false)
-  const [logoSrc,setLogoSrc] = useState(NavLogo2);
+  const [scroll, setScroll] = useState(false);
+  const [logoSrc, setLogoSrc] = useState(NavLogo2);
+  const { t, i18n } = useTranslation();
 
-  const handleLanguageChange = (language) => {
-    setSelectedLanguages(language);
-    setChecked(false);
+  const handleLanguageChange = (e) => {
+    i18n.changeLanguage(e.target.value);
   };
-  const handleClickLanguage = () => {
-    setChecked(!checked);
-  }
 
   useEffect(() => {
     const handleScroll = () => {
-      if(window.scrollY > 0){
-        setScroll(true)
-        setLogoSrc(NavLogo1)
+      if (window.scrollY > 0) {
+        setScroll(true);
+        setLogoSrc(NavLogo1);
+      } else {
+        setScroll(false);
+        setLogoSrc(NavLogo2);
       }
-      else{
-        setScroll(false)
-        setLogoSrc(NavLogo2)
-      }
-    }
+    };
 
-    window.addEventListener("scroll",handleScroll)
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.addEventListener("scroll",handleScroll)
-    }
-  },[scroll])
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scroll]);
 
   return (
     <div className={`nav-container ${scroll ? "active" : ""}`}>
       <div className="container">
         <div className={`nav-lists ${scroll ? "active" : ""}`}>
-          <a href="#" className="nav-list">Information</a>
-          <a href="#about" className="nav-list">About Us</a>
-          <a href="#enterprises" className="nav-list">Enterprises</a>
+          <a href="#" className="nav-list">
+            {t("nav-link1")}
+          </a>
+          <a href="#about" className="nav-list">
+            {t("nav-link2")}
+          </a>
+          <a href="#enterprises" className="nav-list">
+            {t("nav-link3")}
+          </a>
           <a href="#" className="nav-logo">
             <img src={logoSrc} alt="Logo" />
           </a>
-          <a href="#" className="nav-list">Our advantages</a>
-          <a href="#news" className="nav-list">News</a>
-          <a href="#communication" className="nav-list">Communication</a>
-          <input
-            type="checkbox"
-            className="checkbox-btn"
-            onChange={() => setChecked(!checked)}
-          />
-          <div className="nav-languages">
-            <a href="#" className="selected-languages" onClick={handleClickLanguage}>{selectedLanguages}</a>
-            {checked && (
-              <div className="languages">
-              <a
-                href="#"
-                onClick={() => handleLanguageChange("EN")}
-                className={selectedLanguages === "EN" ? "selected" : ""}
-              >
-                EN
-              </a>
-              <a
-                href="#"
-                onClick={() => handleLanguageChange("RU")}
-                className={selectedLanguages === "RU" ? "selected" : ""}
-              >
-                RU
-              </a>
-              <a
-                href="#"
-                onClick={() => handleLanguageChange("UZ")}
-                className={selectedLanguages === "UZ" ? "selected" : ""}
-              >
-                UZ
-              </a>
-            </div>
-            )}
-          </div>
+          <a href="#" className="nav-list">
+            {t("nav-link4")}
+          </a>
+          <a href="#news" className="nav-list">
+            {t("nav-link5")}
+          </a>
+          <a href="#communication" className="nav-list">
+            {t("nav-link6")}
+          </a>
+          <select
+            name="languages"
+            id=""
+            onChange={handleLanguageChange}
+            className="nav-languages"
+          >
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+            <option value="uz">UZ</option>
+          </select>
         </div>
       </div>
     </div>

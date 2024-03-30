@@ -3,11 +3,13 @@ import "./Contact.css";
 import ContactImg from "../../images/contact-img.jpg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const [firstname, setFirstname] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
+  const {t} = useTranslation()
 
   const handleFirstname = (e) => {
     setFirstname(e.target.value);
@@ -39,11 +41,7 @@ const Contact = () => {
     e.preventDefault();
     sendTelegram();
     toast.success(
-      `${firstname} malumotlaringiz telegram kanalga muvaffaqqiyatli tarzda yuborildi!!!`,
-      {
-        position: "top-right",
-      }
-    );
+      `${firstname} malumotlaringiz telegram kanalga muvaffaqqiyatli tarzda yuborildi!!!`);
     setFirstname("");
     setPhoneNumber("");
     setMessage("");
@@ -51,16 +49,16 @@ const Contact = () => {
 
   return (
     <>
-      <ToastContainer position="top-right" />
+      <ToastContainer position="bottom-right" />
     <div className="contact-container">
       <div className="form-img-container" id="communication">
         <form action="" onSubmit={handleSubmit} className="contact-form">
           <h1 className="form-title">
-            Do you have any questions, suggestions or requests?
+            {t("contact-form-title")}
           </h1>
           <input
             type="text"
-            placeholder="Name"
+            placeholder={t("form-input1-placeholder")}
             value={firstname}
             onChange={handleFirstname}
             className="form-input"
@@ -68,7 +66,7 @@ const Contact = () => {
           />
           <input
             type="text"
-            placeholder="Your phone number"
+            placeholder={t("form-input2-placeholder")}
             className="form-input"
             value={phoneNumber}
             onChange={handlePhoneNumber}
@@ -76,7 +74,7 @@ const Contact = () => {
           />
           <textarea
             className="form-textarea"
-            placeholder="Your message ..."
+            placeholder={t("form-input3-placeholder")}
             name=""
             id=""
             value={message}
@@ -85,7 +83,7 @@ const Contact = () => {
             rows="10"
           ></textarea>
           <button type="submit" className="form-sending">
-            Sending
+            {t("form-submit")}
           </button>
         </form>
         <div className="form-img">

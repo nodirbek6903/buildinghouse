@@ -2,14 +2,15 @@ import React from "react";
 import "./Footer.css";
 import Logo from "../../images/footer-logo.png";
 import {
-  Fa500Px,
   FaGoogle,
   FaInstagram,
   FaTelegram,
   FaTwitter,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const {t} = useTranslation()
   return (
     <div className="footer-container">
       <div className="footer-cards">
@@ -17,7 +18,7 @@ const Footer = () => {
           <a href="#" className="logo">
             <img src={Logo} alt="" />
           </a>
-          <span className="footer-text">Subscribe to our social networks</span>
+          <span className="footer-text">{t("footer-card1-text")}</span>
           <div className="footer-icons">
             <a href="#" className="footer-icon">
               <FaInstagram className="icon" />
@@ -34,22 +35,22 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-card">
-          <span>Our company</span>
+          <span>{t("footer-card2-text1")}</span>
           <a href="#" className="footer-link">
-            Enterprises
+          {t("footer-card2-text2")}
           </a>
           <a href="#" className="footer-link">
-            About Us
+          {t("footer-card2-text3")}
           </a>
           <a href="#" className="footer-link">
-            News
+          {t("footer-card2-text4")}
           </a>
           <a href="#" className="footer-link">
-            Our Projects
+          {t("footer-card2-text5")}
           </a>
         </div>
         <div className="footer-card">
-          <span>Communication</span>
+          <span>{t("footer-card3-text")}</span>
           <a href="tel:+998903646903" className="footer-link">
             +998903646903
           </a>

@@ -1,0 +1,63 @@
+{
+    "nav-link1":"Ma `lumot",
+    "nav-link2":"Biz haqimizda",
+    "nav-link3":"Korxonalar",
+    "nav-link4":"Bizning afzalliklarimiz",
+    "nav-link5":"Yangiliklar",
+    "nav-link6":"Aloqa",
+
+    "main-text":"Hamma narsada a'lo",
+    "main-btn1":"Bizning loyihalar",
+    "main-btn2":"Bog'lanish",
+
+    "service-title":"Bizning xizmatlarimiz",
+    "card-text-1":"Siz kompaniyamiz mutaxassislaridan bepul ma'lumot olishingiz mumkin",
+    "card-text-2":"Hujjatlarni rasmiylashtirish",
+    "card-text-3":"Ta`mirlash tuzatish xizmati",
+    "card-text-4":"Professionallar jamoasi",
+
+    "company-title":"Bizning kompaniyada",
+    "company-card-1":"Xodimlar soni",
+    "company-card-2":"Ob'ektlar",
+    "company-card-3":"Maxsus jihozlar",
+    "company-card-4":"bozorda 14 yil",
+
+    "yourhome-title":"Sizning orzuingizdagi uy",
+
+    "project-title":"Bizning loyihalarimiz",
+    "project-card1-descr":"Bu keng ko'lamli ijtimoiy ahamiyatga ega loyiha. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir.",
+    "project-card2-descr":"O'zbekiston aholisiga qulaylik yaratish maqsadida yaratilgan ko'p funksiyali turar-joy majmuasi.",
+    "project-card3-descr":"Poytaxt markazidagi muhtasham turar-joy massivi.",
+    "project-card4-descr":"Fonon - O'zbekistonda 2020 yilda italyan zavodlari negizida qurilgan zargarlik buyumlari ishlab chiqarish zavodi. Fonon - Markaziy Osiyoda Yevropa va Sharq uslubida qimmatbaho metallardan zargarlik buyumlari ishlab chiqaradigan yagona yirik korxona",
+    "project-card5-descr":"Tashkent City xalqaro biznes markazida joylashgan xalqaro bolalar bog'chasi va maktabi.",
+    "project-card6-descr":"Bu xalqaro darajada bilim beradigan ta'lim muassasasi",
+
+    "news-title":"Barcha yangiliklarimiz",
+    "news-card-btn":"Yangiliklar",
+    "news-card1-title":"Qurilish loyihasi menejeri kim?",
+    "news-card1-descr":"Discover Invest kompaniyasida qurilish loyihasi bo'yicha bir nechta menejerlar mavjud. Bu mutaxassis o'ziga ishonib topshirilgan qurilish ob'ektini muvaffaqiyatli amalga oshirish uchun mas'uldir. U rejalashtirish bosqichidan va loyiha hujjatlarini tasdiqlashdan tortib, ishga tushirishgacha bo'lgan butun jarayonni boshqaradi. binoning, va ba'zan ham loyihadan keyingi yordamni amalga oshiradi. Eng so'nggi",
+    "news-card2-title":"Barchani kelayotgan 2024 yil bilan tabriklayman!",
+    "news-card2-descr":"Zallarning murakkab ichki dizayni kvartiraga kirishdan oldin ham qulaylik muhitini yaratadi va qulay navigatsiya tizimi sizga kerakli qavatga osongina chiqishga yoki hududga chiqishga yordam beradi.",
+    "news-card3-title":"Manzil",
+    "news-card3-descr":"Transport infratuzilmasi shaharning istalgan nuqtasiga osongina ko'chib o'tishga imkon beradi: siz faqat kerakli va kerakli yo'nalishni tanlashingiz kerak.",
+    "news-card4-title":"Biz sizni Discover Invest ko'p funksiyali ob'ektlari bilan tanishtirishda davom etamiz.",
+    "news-card4-descr":"Biz sizlarni 'ATAEV BAHODIR BUILD' kompaniyasining ko'p funksiyali ob'ektlari bilan tanishtirishda davom etamiz. Ulardan biri Toshkent shahrining Yangixoyat tumanida barpo etilgan 'Yangi Choshtepa turar-joy majmuasidir. Qurilishning umumiy maydoni 12 gektarni tashkil etadi. Shu kungacha 29 ta uy-joy qurildi. qurilgan.",
+
+    "partners-title":"Hamkorlar bilan fikr almashish",
+    "partners-card-descr":"Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz. Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni quryapmiz. Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar va infratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologik jihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi.",
+    "partners-card-btn":"Batafsil bilish",
+
+    "contact-form-title":"Savol, taklif va murojaatlar bormi?",
+    "form-input1-placeholder":"Ismingiz",
+    "form-input2-placeholder":"Telefon raqamingiz",
+    "form-input3-placeholder":"Sizning xabaringiz...",
+    "form-submit":"Yuborish",
+
+    "footer-card1-text":"Ijtimoiy tarmoqlarimizga obuna bo'ling",
+    "footer-card2-text1":"Kompaniyamiz",
+    "footer-card2-text2":"Korxonalar",
+    "footer-card2-text3":"Biz haqimizda",
+    "footer-card2-text4":"Yangiliklar",
+    "footer-card2-text5":"Bizning loyihalarimiz",
+    "footer-card3-text":"Aloqa"
+}

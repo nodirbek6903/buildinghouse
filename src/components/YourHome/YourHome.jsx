@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./YourHome.css";
 import { LuMoveRight, LuMoveLeft } from "react-icons/lu";
+import { useTranslation } from "react-i18next";
 
 const images = [
   require("../../images/carousel1.jpg"),
@@ -13,6 +14,7 @@ const images = [
 
 const YourHome = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const {t} =useTranslation()
 
   const nextSlide = () => {
     setCurrentImageIndex((prevIndex) =>
@@ -32,7 +34,7 @@ const YourHome = () => {
   return (
     <div className="yourhome-container">
       <div className="section-title">
-        <span>Your dream home</span>
+        <span>{t("yourhome-title")}</span>
       </div>
       <div className="carousel-container">
         <LuMoveLeft className="carousel-icon1" onClick={prevSlide} />

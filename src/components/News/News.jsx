@@ -4,12 +4,14 @@ import News1 from "../../images/news1.jpg";
 import News2 from "../../images/news2.jpg";
 import News3 from "../../images/news3.jpg";
 import News4 from "../../images/service-img2.jpg";
+import { useTranslation } from "react-i18next";
 
 const News = () => {
+  const {t} = useTranslation()
   return (
     <div className="news-container" id="news">
       <div className="section-title">
-        <span>All our news</span>
+        <span>{t("news-title")}</span>
       </div>
       <div className="news-cards">
         <div className="news-card">
@@ -17,17 +19,12 @@ const News = () => {
             <img src={News1} alt="News1" />
           </div>
           <div className="news-texts">
-            <button className="news-btn">News</button>
+            <button className="news-btn">{t("news-card-btn")}</button>
             <h1 className="news-title">
-              Who is a construction project manager?
+            {t("news-card1-title")}
             </h1>
             <p className="news-descr">
-              The Discover Invest company has several construction project
-              managers. This is a specialist responsible for the successful
-              implementation of the construction site entrusted to him. He
-              manages the entire process, from the planning stage and approval
-              of project documentation to the commissioning of the building, and
-              sometimes also performs post-project support. Latest
+              {t("news-card1-descr")}
             </p>
           </div>
         </div>
@@ -36,15 +33,12 @@ const News = () => {
             <img src={News2} alt="News1" />
           </div>
           <div className="news-texts">
-            <button className="news-btn">News</button>
+            <button className="news-btn">{t("news-card-btn")}</button>
             <h1 className="news-title">
-              Congratulations to everyone on the upcoming 2024!
+            {t("news-card2-title")}
             </h1>
             <p className="news-descr">
-              The sophisticated interior design of the halls will create an
-              atmosphere of comfort even before entering the apartment, and a
-              convenient navigation system will help you easily get to the floor
-              you need or exit to the territory
+            {t("news-card2-descr")}
             </p>
           </div>
         </div>
@@ -53,12 +47,10 @@ const News = () => {
             <img src={News3} alt="News1" />
           </div>
           <div className="news-texts">
-            <button className="news-btn">News</button>
-            <h1 className="news-title">Location</h1>
+            <button className="news-btn">{t("news-card-btn")}</button>
+            <h1 className="news-title">{t("news-card3-title")}</h1>
             <p className="news-descr">
-              The transport infrastructure allows you to easily move to anywhere
-              in the city: you just have to choose the desired and desired
-              direction.
+            {t("news-card3-descr")}
             </p>
           </div>
         </div>
@@ -67,17 +59,12 @@ const News = () => {
             <img src={News4} alt="News1" />
           </div>
           <div className="news-texts">
-            <button className="news-btn">News</button>
+            <button className="news-btn">{t("news-card-btn")}</button>
             <h1 className="news-title">
-              We continue to introduce you to the multifunctional objects of
-              Discover Invest.
+            {t("news-card4-title")}
             </h1>
             <p className="news-descr">
-              We continue to introduce you to the multifunctional objects of
-              Discover Invest. One of them is the Yangi Choshtepa residential
-              complex built in the Yangihayat district of Tashkent. The total
-              construction area is 12 hectares. To date, 29 houses have been
-              built.
+            {t("news-card4-descr")}
             </p>
           </div>
         </div>

@@ -10,11 +10,12 @@ const Contact = () => {
         <h1 className="form-title">
           Do you have any questions, suggestions or requests?
         </h1>
-        <input type="text" placeholder="Name" className="form-input" />
+        <input type="text" placeholder="Name" className="form-input" required />
         <input
           type="text"
           placeholder="Your phone number"
           className="form-input"
+          required
         />
         <textarea
           className="form-textarea"

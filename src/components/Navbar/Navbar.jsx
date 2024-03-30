@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import NavLogo from "../../images/footer-logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [checked, setChecked] = useState(false);
   const [selectedLanguages, setSelectedLanguages] = useState("EN");
+  const [scroll,setScroll] = useState(false)
 
   const handleLanguageChange = (language) => {
     setSelectedLanguages(language);
@@ -14,10 +15,26 @@ const Navbar = () => {
     setChecked(!checked);
   }
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if(window.scrollY > 20){
+        setScroll(true)
+      }
+      else{
+        setScroll(false)
+      }
+    }
+
+    window.addEventListener("scroll",handleScroll)
+    return () => {
+      window.addEventListener("scroll",handleScroll)
+    }
+  },[scroll])
+
   return (
-    <div className="nav-container">
+    <div className={`nav-container ${scroll ? "active" : ""}`}>
       <div className="container">
-        <div className="nav-lists">
+        <div className={`nav-lists ${scroll ? "active" : ""}`}>
           <a href="#">Information</a>
           <a href="#">About Us</a>
           <a href="#">Enterprises</a>

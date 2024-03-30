@@ -9,34 +9,42 @@ import anime from "animejs";
 
 const Services = () => {
   useEffect(() => {
-    anime({
-      targets: ".company-cards .employe h1 span",
-      innerHTML: [0, 120],
-      duration: 1500,
-      round: 1,
-      easing: "linear",
-    });
-    anime({
-      targets: ".company-cards .objects h1 span",
-      innerHTML: [0, 43],
-      duration: 1500,
-      round: 1,
-      easing: "linear",
-    });
-    anime({
-      targets: ".company-cards .equipment h1 span",
-      innerHTML: [0, 250],
-      duration: 1500,
-      round: 1,
-      easing: "linear",
-    });
-    anime({
-      targets: ".company-cards .years h1 span",
-      innerHTML: [0, 2],
-      duration: 1500,
-      round: 1,
-      easing: "linear",
-    });
+    const handleScroll = () => {
+      if(window.scrollY>100){
+        anime({
+          targets: ".company-cards .employe h1 span",
+          innerHTML: [0, 120],
+          duration: 1500,
+          round: 1,
+          easing: "linear",
+        });
+        anime({
+          targets: ".company-cards .objects h1 span",
+          innerHTML: [0, 43],
+          duration: 1500,
+          round: 1,
+          easing: "linear",
+        });
+        anime({
+          targets: ".company-cards .equipment h1 span",
+          innerHTML: [0, 250],
+          duration: 1500,
+          round: 1,
+          easing: "linear",
+        });
+        anime({
+          targets: ".company-cards .years h1 span",
+          innerHTML: [0, 2],
+          duration: 1500,
+          round: 1,
+          easing: "linear",
+        });
+      }
+    }
+    window.addEventListener("scroll",handleScroll)
+    return () => {
+      window.addEventListener("scroll",handleScroll)
+    }
   }, []);
   return (
     <div className="services-container">

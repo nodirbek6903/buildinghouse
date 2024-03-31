@@ -79,25 +79,25 @@ const Navbar = () => {
         <div className={`mob-nav-items ${mobNavbar ? "mob-active" : ""}`}>
           <FaTimes className="mob-close close" onClick={handleMobNavbar} />
           <div className="mob-nav-item">
-          <a href="#" className="mob-nav-list">
+          <a href="#" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link1")}
           </a>
-          <a href="#about" className="mob-nav-list">
+          <a href="#about" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link2")}
           </a>
-          <a href="#enterprises" className="mob-nav-list">
+          <a href="#enterprises" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link3")}
           </a>
-          <a href="#" className="mob-nav-list">
+          <a href="#" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link4")}
           </a>
-          <a href="#news" className="mob-nav-list">
+          <a href="#news" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link5")}
           </a>
-          <a href="#communication" className="mob-nav-list">
+          <a href="#communication" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link6")}
           </a>
-          <select className="mob-nav-languages">
+          <select className="mob-nav-languages" onChange={handleLanguageChange}>
             <option value="en">EN</option>
             <option value="ru">RU</option>
             <option value="uz">UZ</option>

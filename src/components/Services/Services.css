@@ -4,6 +4,7 @@
   margin: 0 auto;
   gap: 20px;
   background-color:#fce8bd;
+  gap: 3rem;
 }
 .services-cards {
   display: grid;
@@ -68,16 +69,16 @@
   position: absolute;
   top: 35%;
   left: 10%;
-  gap: 10px;
+  gap: 30px;
 }
 .company .company-statistics .company-title span{
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 .company-statistics .company-cards{
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 .company-statistics .company-cards div h1 span, .company-statistics .company-cards div h1{
   color: #fff;

@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 const Projects = () => {
   const {t} = useTranslation()
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <div className="section-title">
         <span>{t("project-title")}</span>
       </div>

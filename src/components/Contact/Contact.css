@@ -63,3 +63,126 @@
     border-radius:40px;
     object-fit: cover;
 }
+
+@media screen and (max-width:1200px) {
+    .contact-form{
+        width: 50%;
+        left: 15%;
+    }
+    .contact-form .form-title{
+        font-size: 2rem;
+    }
+    .contact-form .form-input{
+        padding: 10px;
+    }
+    .contact-form .form-sending{
+        width: 150px;
+        font-size: 1.1rem;
+    }
+    .form-img img{
+        max-height: 500px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .contact-form{
+        width: 60%;
+        left: 15%;
+        top: 5%;
+    }
+    .contact-form .form-title{
+        font-size: 1.8rem;
+    }
+    .contact-form .form-input{
+        padding: 10px;
+    }
+    .contact-form .form-sending{
+        width: 130px;
+        font-size: 1rem;
+    }
+    .form-img img{
+        max-height: 450px;
+    }
+}
+@media screen and (max-width:768px) {
+    .contact-form{
+        width: 70%;
+        left: 15%;
+        top: 5%;
+        margin: 0 auto;
+    }
+    .contact-form .form-title{
+        font-size: 1.5rem;
+    }
+    .contact-form .form-input{
+        padding: 10px;
+    }
+    .contact-form .form-sending{
+        width: 120px;
+        font-size: 0.9rem;
+    }
+    .form-img img{
+        height: 450px;
+        max-height: 500px;
+    }
+}
+@media screen and (max-width:576px) {
+    .contact-form{
+        width: 70%;
+        left: 15%;
+        top: 5%;
+        margin: 0 auto;
+    }
+    .contact-form .form-title{
+        font-size: 1.3rem;
+    }
+    .contact-form .form-input{
+        padding: 10px;
+    }
+    .contact-form .form-sending{
+        width: 100px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .contact-form{
+        top: 5%;
+        width: 80%;
+        left: 10%;
+    }
+    .contact-form .form-title{
+        font-size: 1.1rem;
+    }
+    .contact-form .form-input{
+        padding: 10px;
+    }
+    .contact-form .form-sending{
+        width: 90px;
+        font-size: 0.7rem;
+    }
+    .form-img{
+        width: 100%;
+    }
+    .form-img img{
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .contact-form{
+        top: 5%;
+        width: 90%;
+        left: 5%;
+    }
+    .contact-form .form-title{
+        font-size: 1rem;
+    }
+    .contact-form .form-input{
+        padding: 10px;
+    }
+    .contact-form .form-sending{
+        width: 80px;
+        font-size: 0.6rem;
+    }
+}

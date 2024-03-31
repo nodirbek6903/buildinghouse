@@ -48,3 +48,70 @@
     background-color: #fff;
     color: #555;
 }
+
+/* mobile version */
+@media screen and (max-width:1200px) {
+    .main-content h1{
+        font-size: 4rem;
+    }
+    .main-content p{
+        font-size: 1.3rem;
+    }
+    .main-content .main-buttons a{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .main-content h1{
+        font-size: 3.5rem;
+    }
+    .main-content p{
+        font-size: 1.2rem;
+    }
+    .main-content .main-buttons a{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-content h1{
+        font-size: 3rem;
+    }
+    .main-content p{
+        font-size: 1.1rem;
+    }
+    .main-content .main-buttons a{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main-content h1{
+        font-size: 2.5rem;
+    }
+    .main-content p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .main-content h1{
+        font-size: 2rem;
+    }
+    .main-content p{
+        font-size: 0.9rem;
+    }
+    .main-content .main-buttons a{
+        font-size: 0.8rem;
+        padding: 10px;
+        width: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .main-content h1{
+        font-size: 1.8rem;
+    }
+}

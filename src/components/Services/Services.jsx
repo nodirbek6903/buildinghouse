@@ -87,25 +87,25 @@ const {t} = useTranslation()
               <h1>
                 <span>0</span> +
               </h1>
-              <span>{t("company-card-1")}</span>
+              <span className="div-text">{t("company-card-1")}</span>
             </div>
             <div className="objects">
               <h1>
                 <span>0</span> +
               </h1>
-              <span>{t("company-card-2")}</span>
+              <span className="div-text">{t("company-card-2")}</span>
             </div>
             <div className="equipment">
               <h1>
                 <span>0</span> +
               </h1>
-              <span>{t("company-card-3")}</span>
+              <span className="div-text">{t("company-card-3")}</span>
             </div>
             <div className="years">
               <h1>
                 <span>0</span> +
               </h1>
-              <span>{t("company-card-4")}</span>
+              <span className="div-text">{t("company-card-4")}</span>
             </div>
           </div>
         </div>

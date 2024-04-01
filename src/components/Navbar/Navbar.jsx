@@ -39,7 +39,7 @@ const Navbar = () => {
     <div className="nav-container">
       <div className={`container ${scroll ? "active" : ""}`}>
         <div className={`nav-lists ${scroll ? "active" : ""}`}>
-          <a href="#" className="nav-list">
+          <a href="#information" className="nav-list">
             {t("nav-link1")}
           </a>
           <a href="#about" className="nav-list">
@@ -51,7 +51,7 @@ const Navbar = () => {
           <a href="#" className="nav-logo">
             <img src={logoSrc} alt="Logo" />
           </a>
-          <a href="#" className="nav-list">
+          <a href="#advantages" className="nav-list">
             {t("nav-link4")}
           </a>
           <a href="#news" className="nav-list">
@@ -79,7 +79,7 @@ const Navbar = () => {
         <div className={`mob-nav-items ${mobNavbar ? "mob-active" : ""}`}>
           <FaTimes className="mob-close close" onClick={handleMobNavbar} />
           <div className="mob-nav-item">
-          <a href="#" className="mob-nav-list" onClick={handleMobNavbar}>
+          <a href="#information" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link1")}
           </a>
           <a href="#about" className="mob-nav-list" onClick={handleMobNavbar}>
@@ -88,7 +88,7 @@ const Navbar = () => {
           <a href="#enterprises" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link3")}
           </a>
-          <a href="#" className="mob-nav-list" onClick={handleMobNavbar}>
+          <a href="#advantages" className="mob-nav-list" onClick={handleMobNavbar}>
             {t("nav-link4")}
           </a>
           <a href="#news" className="mob-nav-list" onClick={handleMobNavbar}>

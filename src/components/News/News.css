@@ -159,6 +159,9 @@
     }
 }
 @media screen and (max-width:380px) {
+    .news-container{
+        padding: 20px 0;
+    }
     .news-cards{
         grid-template-columns: 1fr;
         width: 95%;
@@ -172,5 +175,22 @@
     }
     .news-texts .news-btn{
         padding: 8px 30px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .news-cards{
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+    .news-cards .news-card{
+        max-height: 550px;
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 0;
+    }
+    .news-texts .news-btn{
+        padding: 8px 25px;
     }
 }

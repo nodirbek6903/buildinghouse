@@ -154,6 +154,15 @@
     width: 90%;
   }
 }
+@media screen and (max-width:890px) {
+  .nav-lists {
+    width: 95%;
+  }
+  .nav-lists a{
+    font-size: 1.1rem;
+    margin: 0 5px;
+  }
+}
 @media screen and (max-width:768px) {
   .nav-container .container{
     display: none;

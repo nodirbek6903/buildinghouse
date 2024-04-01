@@ -7,11 +7,39 @@
 .section-title{
     text-align: center;
     margin: 2rem 0;
-    font-size: 2rem;
+}
+.section-title span{
+    font-size: 2.5rem;
 }
 .container{
     margin: 0 auto;
     max-width: 1560px;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width:1200px){
+    .section-title span{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width:992px){
+    .section-title span{
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width:768px){
+    .section-title span{
+        font-size: 2.1rem;
+    }
+}
+@media screen and (max-width:576px){
+    .section-title span{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:380px){
+    .section-title span{
+        font-size: 1.5rem;
+    }
 }

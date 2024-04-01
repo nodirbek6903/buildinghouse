@@ -168,13 +168,13 @@
     }
     .tex-img{
         max-height: 400px;
-        height: 300px;
+        height: 320px;
     }
     .tex-img img{
-        max-height: 300px;
+        max-height: 320px;
     }
     .partners-img-container img{
-        max-height: 300px;
+        max-height: 260px;
         height: 100%;
     }
 }
@@ -192,13 +192,13 @@
     }
     .tex-img{
         max-height: 300px;
-        height: 250px;
+        height: 270px;
     }
     .tex-img img{
-        max-height: 250px;
+        max-height: 270px;
     }
     .partners-img-container img{
-        max-height: 250px;
+        max-height: 230px;
         height: 100%;
     }
 }

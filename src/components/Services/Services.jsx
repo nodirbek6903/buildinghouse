@@ -80,7 +80,7 @@ const {t} = useTranslation()
       <div className="company" id="enterprises">
         <div className="company-statistics">
           <div className="company-title">
-            <span>{t("company-title")}</span>
+            <span className="title">{t("company-title")}</span>
           </div>
           <div className="company-cards">
             <div className="employe">

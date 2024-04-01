@@ -32,7 +32,7 @@ const YourHome = () => {
   };
 
   return (
-    <div className="yourhome-container">
+    <div className="yourhome-container" id="advantages">
       <div className="section-title">
         <span>{t("yourhome-title")}</span>
       </div>

@@ -114,6 +114,9 @@
 }
 
 @media screen and (max-width:380px) {
+    .projects-container{
+        margin-bottom: 50px;
+    }
     .projects-cards .card{
         min-height: 200px;
     }

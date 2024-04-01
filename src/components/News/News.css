@@ -167,11 +167,12 @@
         width: 95%;
     }
     .news-cards .news-card{
-        max-height: 500px;
+        max-height: 530px;
         max-width: 100%;
         margin: 0 auto;
         flex-direction: column;
         gap: 0;
+        padding-bottom: 20px;
     }
     .news-texts .news-btn{
         padding: 8px 30px;
@@ -184,7 +185,7 @@
         width: 95%;
     }
     .news-cards .news-card{
-        max-height: 550px;
+        max-height: 560px;
         max-width: 100%;
         margin: 0 auto;
         flex-direction: column;

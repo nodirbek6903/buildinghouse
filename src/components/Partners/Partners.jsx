@@ -8,7 +8,7 @@ import Img5 from "../../images/partners5.jpg"
 import Img6 from "../../images/partners6.jpg"
 import Img7 from "../../images/partners7.jpg"
 import Img8 from "../../images/partners8.jpg"
-import TexImg from "../../images/services-img.jpg"
+import TexImg from "../../images/qurilish.jpg"
 import { useTranslation } from 'react-i18next'
 
 const Partners = () => {

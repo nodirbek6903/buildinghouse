@@ -13,7 +13,6 @@
 .tex-container{
     width: 100%;
     position: relative;
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;

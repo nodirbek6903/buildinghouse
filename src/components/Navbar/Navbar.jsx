@@ -12,7 +12,9 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();
 
   const handleLanguageChange = (e) => {
-    i18n.changeLanguage(e.target.value);
+    const selectedLanguage = e.target.value;
+    localStorage.setItem("language", selectedLanguage);
+    i18n.changeLanguage(selectedLanguage);
   };
 
   const handleMobNavbar = () => {
@@ -64,6 +66,7 @@ const Navbar = () => {
             name="languages"
             id=""
             onChange={handleLanguageChange}
+            value={localStorage.getItem("language")}
             className="nav-languages"
           >
             <option value="en">EN</option>

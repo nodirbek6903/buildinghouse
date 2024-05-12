@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div className='main-container'>
         <div className="main-content">
-            <h1>Ataev <br /> Bahodir Build</h1>
+            <h1>House <br /> Build Company</h1>
             <p>{t("main-text")}</p>
             <div className="main-buttons">
                 <a href='#projects' className='main-btn'>{t("main-btn1")}</a>
